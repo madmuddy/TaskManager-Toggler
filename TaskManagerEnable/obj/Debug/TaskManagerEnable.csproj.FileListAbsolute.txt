@@ -1,0 +1,8 @@
+C:\Users\Malik\source\repos\TaskManager\TaskManagerEnable\bin\Debug\TaskManagerEnable.exe.config
+C:\Users\Malik\source\repos\TaskManager\TaskManagerEnable\bin\Debug\TaskManagerEnable.exe
+C:\Users\Malik\source\repos\TaskManager\TaskManagerEnable\bin\Debug\TaskManagerEnable.pdb
+C:\Users\Malik\source\repos\TaskManager\TaskManagerEnable\bin\Debug\TaskManager.dll
+C:\Users\Malik\source\repos\TaskManager\TaskManagerEnable\bin\Debug\TaskManager.pdb
+C:\Users\Malik\source\repos\TaskManager\TaskManagerEnable\obj\Debug\TaskManagerEnable.csprojResolveAssemblyReference.cache
+C:\Users\Malik\source\repos\TaskManager\TaskManagerEnable\obj\Debug\TaskManagerEnable.exe
+C:\Users\Malik\source\repos\TaskManager\TaskManagerEnable\obj\Debug\TaskManagerEnable.pdb

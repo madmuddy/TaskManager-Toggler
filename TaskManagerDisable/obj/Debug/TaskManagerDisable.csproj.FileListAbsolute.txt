@@ -1,0 +1,8 @@
+C:\Users\Malik\source\repos\TaskManager\TaskManagerDisable\bin\Debug\TaskManagerDisable.exe.config
+C:\Users\Malik\source\repos\TaskManager\TaskManagerDisable\bin\Debug\TaskManagerDisable.exe
+C:\Users\Malik\source\repos\TaskManager\TaskManagerDisable\bin\Debug\TaskManagerDisable.pdb
+C:\Users\Malik\source\repos\TaskManager\TaskManagerDisable\bin\Debug\TaskManager.dll
+C:\Users\Malik\source\repos\TaskManager\TaskManagerDisable\bin\Debug\TaskManager.pdb
+C:\Users\Malik\source\repos\TaskManager\TaskManagerDisable\obj\Debug\TaskManagerDisable.csprojResolveAssemblyReference.cache
+C:\Users\Malik\source\repos\TaskManager\TaskManagerDisable\obj\Debug\TaskManagerDisable.exe
+C:\Users\Malik\source\repos\TaskManager\TaskManagerDisable\obj\Debug\TaskManagerDisable.pdb

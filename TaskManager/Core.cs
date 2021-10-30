@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,11 @@ namespace TaskManager
         {
             try
             {
+                RegistryKey objRegistryKey = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\Policies\System");
+                objRegistryKey.DeleteValue("DisableTaskMgr");
+
+                objRegistryKey.Close();
+
                 return 1;
             }
             catch
@@ -20,10 +26,15 @@ namespace TaskManager
             }
         }
 
-        public static int DisaableTaskManager()
+        public static int DisableTaskManager()
         {
             try
             {
+                RegistryKey objRegistryKey = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\Policies\System");
+                objRegistryKey.SetValue("DisableTaskMgr", "1");
+
+                objRegistryKey.Close();
+
                 return 1;
             }
             catch
@@ -36,6 +47,14 @@ namespace TaskManager
         {
             try
             {
+                RegistryKey objRegistryKey = Registry.CurrentUser.CreateSubKey(
+                    @"Software\Microsoft\Windows\CurrentVersion\Policies\System");
+                if (objRegistryKey.GetValue("DisableTaskMgr") == null)
+                    objRegistryKey.SetValue("DisableTaskMgr", "1");
+                else
+                    objRegistryKey.DeleteValue("DisableTaskMgr");
+                objRegistryKey.Close();
+
                 return 1;
             }
             catch

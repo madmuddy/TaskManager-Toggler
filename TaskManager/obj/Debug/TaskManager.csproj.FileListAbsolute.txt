@@ -1,1 +1,5 @@
-C:\Users\Malik\source\repos\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\Malik\source\repos\TaskManager\TaskManager\bin\Debug\TaskManager.dll.config
+C:\Users\Malik\source\repos\TaskManager\TaskManager\bin\Debug\TaskManager.dll
+C:\Users\Malik\source\repos\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\Malik\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\Malik\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.pdb

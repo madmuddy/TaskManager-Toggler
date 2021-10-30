@@ -10,6 +10,13 @@ namespace TaskManagerDisable
     {
         static void Main(string[] args)
         {
+            try
+            {
+                TaskManager.Core.DisableTaskManager();
+            }
+            catch
+            {
+            }
         }
     }
 }

@@ -10,6 +10,13 @@ namespace TaskManagerEnable
     {
         static void Main(string[] args)
         {
+            try
+            {
+                TaskManager.Core.EnableTaskManager();
+            }
+            catch
+            {
+            }
         }
     }
 }
